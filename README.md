@@ -27,6 +27,6 @@ I imported the Oracle SQL plug in on my VSCode application and continued downloa
 
 I then continued to create the tables that i needed so that i could begin to take a look at the infiormation that i needed. I first queried the data to check when Sainz started his career and what years he was at what teams. I did intially create a view that encompassed basic information that i needed to then query that view from. However in order to showcase the fact that i know how to work with cte's i created one query with a cte thatr pulls in all the information i needed.
 The main thing i was looking for was to pull information of the years Sainz was driving, at what team and who was his team mate and show the avg race result by year. I thought it was important to also highlight the race count also because some of the people showing had only raced a few races in that particular year and therefore there results were not stratistically significant. I could have omitted them but have decided to keep them in as they were part of the team if albeit for a few races in that year. 
-
+![F1 SQL](VS_F1.png)
 
 
