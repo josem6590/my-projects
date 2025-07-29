@@ -21,6 +21,12 @@ I signed up for a free account Oracle Cloud account and created an autonumous da
 
 ![F1 SQL](Bucket.png)
 
+
+### SQL
+I imported the Oracle SQL plug in on my VSCode application and continued download the data from my Oracle Cloud database and create the relevant SQL tables as per the below example: 
+
+
+
 ### This is a test
 Testing
 ![F1 SQL](VS_Code_F1.png)
