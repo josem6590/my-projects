@@ -19,6 +19,8 @@ I downloaded the F1 data set from kaggle.com a community that offers a lot of da
 ### Oracle Cloud
 I signed up for a free account Oracle Cloud account and created an autonumous database so that i could store my data files as objects within buckets.
 
+![F1 SQL](Bucket.png)
+
 ### This is a test
 Testing
 ![F1 SQL](VS_Code_F1.png)
