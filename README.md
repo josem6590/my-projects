@@ -14,7 +14,10 @@ There was a new Spanish driver who entered F1 in 2015, Carlos Sainz son of the f
 I still cant help to this that the top teams are missing out on this, in hiw own words, 'smooth operator'. I wanted to have a look at the F1 Data and at how Sainz's race results compare with his team colleague for that year. My hypothesis is that on average he will have had better results that hes team mate.  
 
 ### Kaggle
-I downloaded a data set from 
+I downloaded the F1 data set from kaggle.com a community that offers a lot of data sets and runs competitions as well as keeps its community up to date with the latest news on Machine Learning and Data Science.
+
+### Oracle Cloud
+I signed up for a free account Oracle Cloud account and created an autonumous database so that i could store my data files as objects within buckets.
 
 ### This is a test
 Testing
