@@ -29,6 +29,6 @@ I then continued to create the tables that I needed so that I could begin to que
 
 Pulling the avg. race results by year, driver and team only for the teams that Carlos Sainz was part of, I started to develop a picture of where he stood in comparison to his team mates. Realising that the race count would be important, I decided to add that also as there are certain drivers who had only driven two races in the year. The sample size is not significant but I have kept them in the data to show a real picture of who were his team mates.
 
-![F1 SQL](VS_F1.png)
+![F1 SQL](VS_CODE.png)
 
 
