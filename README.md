@@ -9,7 +9,7 @@ I realised after a few months of not getting a job that I should try and showcas
 ### Introduction
 After the death of my hero Ayrton Senna at Imola in 1994, which I watched live, I started to fall out of love with Formula 1. I then stopped watching when Michael Schumacker kept winning every race and championship - it had become very boring. But something changed in the early 2000's, a young Spanish lad called Fernando Alonso started to make waves. I started watching again and have not stopped. It's well known how good Fernando Alonso is and now at the age of 44 after having won 2 F1 Championships he is still driving and performing well. 
 
-There was a new Spanish driver who entered F1 in 2015, Carlos Sainz, son of the famous rally driver of the same name. Having paid close attention to his career I have often felt that he has been undervalued and in early 2025, Ferrari chose to replace Carlos Sainz with Lewis Hamilton. Now, its hard to argue when the person who is to replace you is a 7 time F1 champion, but I would have thought Carlos Sainz would have been snapped up by one of the top three teams. He wasn't and in 2024 he signed to Williams. 
+There was a new Spanish driver who entered F1 in 2015, Carlos Sainz, son of the famous rally driver of the same name. Having paid close attention to his career, I have often felt that he has been undervalued and in early 2025, Ferrari chose to replace Carlos Sainz with Lewis Hamilton. Now, its hard to argue when the person who is to replace you is a 7 time F1 champion, but I would have thought Carlos Sainz would have been snapped up by one of the top three teams. He wasn't and in 2024 he signed to Williams. 
 
 I still can't help to think that the top teams are missing out on this...in his own words...'smooth operator'. I wanted to have a look at the F1 Data and at how Sainz's race results compare with his team mates, by year. Comparing to his teammate gives us a more accurate comparison because they are in the same car, albeit sometimes with slightly different set ups. My hypothesis is that on average he will have had better results than he's team mates. Let's find out.
 
@@ -22,7 +22,7 @@ I signed up for a free Oracle Cloud account and created an autonomous database s
 
 
 ### SQL
-I imported the Oracle SQL plugin on my VSCode application and continued to download the data from my Oracle Cloud database, as per below example:
+I imported the Oracle SQL plugin on my VSCode IDE and continued to download the data from my Oracle Cloud database, as per below example:
 ![F1 SQL](CloudSQL.png)
 
 I then continued to create the tables that I needed so that I could begin to query my data. I checked to see when Sainz started his career and what years he was at what teams. I did initially create a view that encompassed basic information that I needed to then query that view. However in order to showcase the use of cte's I created one query with a cte that pulls in all the information needed.
@@ -32,7 +32,7 @@ Pulling the avg. race results by year, driver and team only for the teams that C
 ![F1 SQL](VS_CODE.png)
 
 ### Graph
-After pulling the data from SQL, I built a graph and made it as clear as possible to the viewer. Choosing a bar chart helps visually to compare Sainz (in blue for easy comparison) vs. his team mates making it easy to spot who outperformed who, in a given season. Adding a line for the GP_count provides context for the drivers who only drove partial seasons, helping to avoid false conclusions from small samples, but providing an accurate depiction of what took place.
+After pulling the data from SQL, I built a graph and made it as clear as possible to the viewer. Choosing a bar chart helps visually to compare Sainz (in blue for easy comparison) vs. his team mates, making it easy to spot who outperformed who, in a given season. Adding a line for the GP_count provides context for the drivers who only drove partial seasons, helping to avoid false conclusions from small samples, but providing an accurate depiction of what took place.
 
 ![F1 SQL](graph.png)
 
@@ -51,7 +51,7 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 
 
 ### Summary
-At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016).From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me want to do the same analysis on Hulkenburg, another driver who I have often thought of as undervalued. At Ferrari Sainz was generally out performed by Leclerc apart from his first season there. However, as someone who watched those season he was also very unfortunate with strategy, race incidents and the performance of the car. Short stints by Hartley, Gasley, Bearman and Verstappen in 2016 shouldn't be compared to Sainz's full season.
+At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016). From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me want to do the same analysis on Hulkenburg, another driver who I have often thought of as undervalued. At Ferrari, Sainz was generally out performed by Leclerc apart from his first season in 2021. However, as someone who watched those season he was also very unfortunate with strategy, race incidents and the performance of the car. Short stints by Hartley, Gasley, Bearman and Verstappen in 2016 shouldn't be compared to Sainz's full season.
 
 Sainz's is a consistent driver with average races finishes trending down, which will now begin to trend up since joining Williams. It's interesting to note when he was at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship.
 
