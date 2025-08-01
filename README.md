@@ -31,4 +31,30 @@ Pulling the avg. race results by year, driver and team only for the teams that C
 
 ![F1 SQL](VS_CODE.png)
 
+### Graph
+After pulling the data from SQL, I built a graph and made it as clear as possible to the viewer. Choosing a Bar Chart helps visually compare Sainz vs. his team mates and Sainz bar is in blue to help spot therefore its easy to spot who outperfirmed who in a given season. Adding a line for the GP_Count provides context for the drivwers who only drove partial season, helping to avoid false conclusions from small samples but giving the acurate pictrure. 
+
+![F1 SQL](graph.png)
+
+### Insights
+
+2015 (Toro Rosso) Slightly outperformed by Max, both did full seasons (19 GPs)
+2016 (Toro Rosso) Sainz comfortably outperformed Kvyat, but Verstappen was faster in limited races
+2017 (Toro Rosso) Dominated his teammates statistically
+2018 (Renault) Outperformed by Hülkenberg
+2019 (McLaren) Beat Norris fairly clearly
+2020 (McLaren) Slight edge to Sainz again
+2021 (Ferrari) Essentially tied, slight edge to Sainz
+2022 (Ferrari) Slightly outperformed by Leclerc
+2023 (Ferrari) Leclerc ahead more clearly
+2024 (Ferrari so far) Leclerc ahead again, though not by a huge margin
+
+
+### Summary
+Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Vertappen limited races in 2016) at the beginning of his F1 Career.
+From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg.
+At Ferrari he was generally out performed by Leclerc apart from his first season there. However, as someone who watched those season he was also very unfortunate with strategy, and performance of the car.
+Short stints by Hartley, Gasley, Bearman and Verstappen in 2016 shouldnt be compared to Sainz's full season.
+Sainz's is a consistant driver with average races finishes in trending down in his career, which will now begin to go back up since joining Williams. Its interesting to note that at his time at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championshiop as he was last year. It does make me wonder what would could happen if Sainz was in a Mclaren, we can only speculate but looking at his past performance i would say he would be on to win his first F1 Championship
+
 
