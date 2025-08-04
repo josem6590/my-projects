@@ -31,7 +31,7 @@ Pulling the avg. race results by year, driver and team only for the teams that C
 
 ![F1 SQL](VS_CODE.png)
 
-### Graph
+### Graph 1
 After pulling the data from SQL, I built a graph and made it as clear as possible to the viewer. Choosing a bar chart helps visually to compare Sainz (in blue for easy comparison) vs. his team mates, making it easy to spot who outperformed who, in a given season. Adding a line for the GP_count provides context for the drivers who only drove partial seasons, helping to avoid false conclusions from small samples, but providing an accurate depiction of what took place.
 
 ![F1 SQL](graph.png)
@@ -52,6 +52,13 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 
 ### Summary
 At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016). From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me want to do the same analysis on Hulkenburg, another driver who I have often thought of as undervalued. At Ferrari, Sainz was generally out performed by Leclerc apart from his first season in 2021. However, as someone who watched those season he was also very unfortunate with strategy, race incidents and the performance of the car. Short stints by Hartley, Gasley, Bearman and Verstappen in 2016 shouldn't be compared to Sainz's full season.
+
+### SQL - Delta
+
+
+
+
+![F1 SQL](Delta.png)
 
 Sainz's is a consistent driver with average races finishes trending down, which will now begin to trend up since joining Williams. It's interesting to note when he was at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
 
