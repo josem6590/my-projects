@@ -50,15 +50,23 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 2024 (Ferrari) Leclerc ahead again, though not by a huge margin  
 
 
-### Summary
-At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016). From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me want to do the same analysis on Hulkenburg, another driver who I have often thought of as undervalued. At Ferrari, Sainz was generally out performed by Leclerc apart from his first season in 2021. However, as someone who watched those season he was also very unfortunate with strategy, race incidents and the performance of the car. Short stints by Hartley, Gasley, Bearman and Verstappen in 2016 shouldn't be compared to Sainz's full season.
 
 ### SQL - Delta
 Really wanting an at a glance guide of how Sainz performs vs. teammate I pulled the below data from my cte query to get the per GP round by year of Sainz and teamate. Also having the delta coloumn showing the difference of Sainz race result vs. his team mate. 
 ![F1 SQL](sql_2.png)
 
+### Graph 2
+I created the velow graphs to show the delta, the difference between Sainz race results and his teammates. A positive number, meaning Sainz finsihed higher than his teammate and a negative number meaning he finished lower than his team mate. The greated the difference from 0, the greater the difference from where both team mates finished. I only wanted to show races where both drives finished the race hence there are some numbers missing from the GP Rounds. I choose to keep the Y axis bounds consistent through all the graphs for ease of comparison and also highlighted the totals for that year on the right of the chart. 
 
-![F1 SQL](Delta.png)
+### Insights
+We get to see a similar picture of Sainz performing well at all the teams he has been apart from his time at Ferrari and in 2018 the year his teammate was hulkenburg.
+
+### Summary
+At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016). From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me want to do the same analysis on Hulkenburg, another driver who I have often thought of as undervalued. At Ferrari, Sainz was generally out performed by Leclerc apart from his first season in 2021. However, as someone who watched those season he was also very unfortunate with strategy, race incidents and the performance of the car. Short stints by Hartley, Gasley, Bearman and Verstappen in 2016 shouldn't be compared to Sainz's full season.
+
+At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016). From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me
+
+![F1 SQL](Delta2.png)
 
 Sainz's is a consistent driver with average races finishes trending down, which will now begin to trend up since joining Williams. It's interesting to note when he was at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
 
