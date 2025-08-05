@@ -52,7 +52,7 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 
 
 ### SQL - Delta
-Really wanting an at a glance guide of how Sainz performs vs. teammate I pulled the below data from my cte query to get the per GP round by year of Sainz and teamate. Also having the delta coloumn showing the difference of Sainz race result vs. his team mate. 
+Seeing the average race result by season vs. his teammate was good but i really wanted a picture of how each driver performs vs each other by GP round. A head2head visual that shows when both drivers finished the race who came out ontop and by how much. I wanted to also see the count for the season, how many times in the season did Sainz come out ontop and how many times did his colleague come out ontop? Then I can summarise the % of times that Sainz finished higher than his teammate by team. Therefore, I amended my SQL query that references the cte to be able to do this as per below: 
 ![F1 SQL](sql_2.png)
 
 ### Graph 2
@@ -66,7 +66,7 @@ At the beginning of his F1 career Sainz generally matched or outperformed his te
 
 At the beginning of his F1 career Sainz generally matched or outperformed his teammates with the exception of Verstappen in 2015-16 (Verstappen limited races in 2016). From 2018-2020 Sainz outperformed Norris but was behind Hulkenburg, which makes me
 
-![F1 SQL](Delta2.png)
+![F1 SQL](DS.png)
 
 Sainz's is a consistent driver with average races finishes trending down, which will now begin to trend up since joining Williams. It's interesting to note when he was at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
 
