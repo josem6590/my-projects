@@ -61,9 +61,9 @@ I created the below graphs to show the delta, the difference between Sainz race 
 ![F1 SQL](DS.png)
 
 ### Insights - Delta
-2015 - 2017 (Toro Rosso) Whats interesting to note here is that when we look at his average race result previously max had outperformed Sainz in 2015. However, what the H2H data tells us is that when looking at races both drivers managed to finish, they had both finished higher than each other a total of five times. When we look at his career at Toro Rosso we see Sainz finishing higher that his team mates a whopping 70% of the time. 
-2018 (Renault) Hulkenburg outperforms Sainz
-2019 - 2020 (Mclaren) Sainz over his two years at MClaren finishes higher than Lando Norris 61% of the time and often by quite a margin or around 5 positions especially in his first season.
+2015 - 2017 (Toro Rosso) Whats interesting to note here is that when we look at his average race result previously max had outperformed Sainz in 2015. However, what the H2H data tells us is that when looking at races both drivers managed to finish, they had both finished higher than each other a total of five times. When we look at his career at Toro Rosso we see Sainz finishing higher that his team mates a whopping 70% of the time.  
+2018 (Renault) Hulkenburg outperforms Sainz  
+2019 - 2020 (Mclaren) Sainz over his two years at MClaren finishes higher than Lando Norris 61% of the time and often by quite a margin or around 5 positions especially in his first season.  
 2021 - 2024 (Ferrari) Apart from 2022 where Sainz and Lecrec beat each other equally, Lecrec finishes higher in teh other three years. Although looking at the delta not by much. However, I noticed that when Sainz did beat Lecrec he beat him by a greater margin which prompted me to just check the driver standings for each year. What I found was Sainz finished higher than Lecrec in the driver standings for 2021 but not if any other year at Ferrari. Sains only managed to beat Lecrec in 31% of the H2H. 
 
 ### Summary
