@@ -41,7 +41,7 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 2015 (Toro Rosso) Slightly outperformed by Max, both did full seasons (19 GPs)  
 2016 (Toro Rosso) Sainz comfortably outperformed Kvyat, but Verstappen was faster in limited races  
 2017 (Toro Rosso) Dominated his teammates statistically  
-2018 (Renault) Outperformed by Hülkenberg  
+2018 (Renault) Outperformed by Hulkenberg  
 2019 (McLaren) Beat Norris fairly clearly  
 2020 (McLaren) Slight edge to Sainz again  
 2021 (Ferrari) Essentially tied, slight edge to Sainz  
@@ -51,13 +51,13 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 
 
 ### SQL - Delta
-Seeing the average race result by season vs. his teammate was good but I really wanted a picture of how each driver performs vs each other by GP round. A head2head visual that shows when both drivers finished the race, who came out ontop and by how much. I wanted to also see the count for the season i.e. how many times in the season did Sainz come out ontop and viceversa. Then I can summarise the % of times that Sainz finished higher than his teammate by team. Therefore, I amended my SQL query that references the cte to be able to do this as per below: 
+Seeing the average race result by season vs. his teammate was good but I really wanted a picture of how each driver performs vs each other by GP round. A head2head visual that shows when both drivers finished the race, who came out on top and by how much. I wanted to also see the count for the season i.e. how many times in the season did Sainz come out on top and vice versa. Then I can summarise the % of times that Sainz finished higher than his teammate by team. Therefore, I amended my SQL query that references the cte to be able to do this as per below: 
 
 ![F1 SQL](sql_2.png)
 
 
 ### Graph - Delta
-I created the below graphs to show the delta, the difference between Sainz race results and his teammates. A positive number, meaning Sainz finsihed higher than his teammate and a negative number meaning he finished lower than his teammate. The greater the difference from 0, the greater the difference from where both team mates finished. I only wanted to show races where both drives finished the race, hence there are some numbers missing from the GP Rounds. I choose to keep the Y axis bounds consistent through all the graphs for ease of comparison and also highlighted the totals for that year on the right of the chart. 
+I created the below graphs to show the delta, the difference between Sainz race results and his teammates. A positive number, meaning Sainz finished higher than his teammate and a negative number meaning he finished lower than his teammate. The greater the difference from 0, the greater the difference from where both team mates finished. I only wanted to show races where both drives finished the race, hence there are some numbers missing from the GP Rounds. I choose to keep the Y axis bounds consistent through all the graphs for ease of comparison and also highlighted the totals for that year on the right of the chart. 
 
 ![F1 SQL](DS.png)
 
@@ -65,12 +65,12 @@ I created the below graphs to show the delta, the difference between Sainz race 
 ### Insights - Delta
 2015 - 2017 (Toro Rosso) What's interesting to note here is that when we looked at his average race result previously max had outperformed Sainz in 2015. However, what the H2H data tells us is that, when we look at the GP rounds that both drivers managed to finish, they had both finished higher than each other a total of five times. And when we look at his overall career at Toro Rosso we see Sainz finishing higher that his teammates a whopping 70% of the time.  
 2018 (Renault) Hulkenburg outperforms Sainz  
-2019 - 2020 (Mclaren) Sainz over his two years at MClaren finishes higher than Lando Norris 61% of the time and often by quite a margin or around 5 positions especially in his first season.  
-2021 - 2024 (Ferrari) Apart from 2022 where Sainz and Lecrec beat each other equally, Leclerc finishes higher in the other three years. Although looking at the delta not by much. However, I noticed that when Sainz did beat Leclerc he beat him by a greater margin which prompted me to just check the driver standings for each year. What I found was Sainz finished higher than Lecrec in the driver standings for 2021 but not in any other year at Ferrari. Sains only managed to beat Lecrec in 31% of the H2H. 
+2019 - 2020 (Mclaren) Sainz over his two years at Mclaren finishes higher than Lando Norris 61% of the time and often by quite a margin or around 5 positions especially in his first season.  
+2021 - 2024 (Ferrari) Apart from 2022 where Sainz and Leclrec beat each other equally, Leclerc finishes higher in the other three years. Although looking at the delta not by much. However, I noticed that when Sainz did beat Leclerc he beat him by a greater margin which prompted me to just check the driver standings for each year. What I found was Sainz finished higher than Lecrec in the driver standings for 2021 but not in any other year at Ferrari. Sainz only managed to beat Lelcerc in 31% of the H2H. 
 
 
 ### Summary
 There are other questions that come to mind and other interesting things that I want to explore for example the qualifying data but given this is supposed to be a handful of small projects we must draw the line. 
-Looking at the data I have compiled as a whole we see a very good driver performing very well apart from 2018 in his one season at Renault and perhaps the last two seasons at Ferrari. However, he is consistant and even in the seasons he does not perform well the delta to his teammate is not significantly large as highlighted in 2021, where he still finished higher than lecrec in the driver standings. It's interesting to note when he was at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
+Looking at the data I have compiled as a whole we see a very good driver performing very well apart from 2018 in his one season at Renault and perhaps the last two seasons at Ferrari. However, he is consistent and even in the seasons he does not perform well the delta to his teammate is not significantly large as highlighted in 2021, where he still finished higher than Leclrec in the driver standings. It's interesting to note when he was at Mclaren he performed better than his team mate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
 
 
