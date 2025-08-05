@@ -22,7 +22,7 @@ I signed up for a free Oracle Cloud account and created an autonomous database s
 
 
 ### SQL
-I imported the Oracle SQL plugin on my VSCode IDE and continued to download the data from my Oracle Cloud database, as per below example:
+I imported the Oracle SQL plugin on my VS Code IDE and continued to download the data from my Oracle Cloud database, as per below example:
 ![F1 SQL](CloudSQL.png)
 
 I then continued to create the tables that I needed so that I could begin to query my data. I checked to see when Sainz started his career and what years he was at what teams. I did initially create a view that encompassed basic information that I needed to then query that view. However in order to showcase the use of cte's I created one query with a cte that pulls in all the information needed.
