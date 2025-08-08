@@ -74,3 +74,18 @@ There are other questions that come to mind and other interesting things that I 
 Looking at the data I have compiled as a whole we see a very good driver performing very well apart from 2018 in his one season at Renault and perhaps the last two seasons at Ferrari. However, he is consistent and even in the seasons he does not perform well the delta to his teammate is not significantly large as highlighted in 2021, where he still finished higher than Leclrec in the driver standings. It's interesting to note when he was at Mclaren he performed better than his teammate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
 
 
+### Conclusion/Summary
+Based on the above analysis of Carlos Sainz's race results, we see a driver who consistently delivers strong results accross multiple teams over the years.
+
+
+### Key Findings 
+**Consistent Front-Runner:** Carlos Sainz has been a very good driver throughout his career, often matching or outperforming his teammates.  
+
+**Strong McLaren/Toro Rosso Performance:** He had his most dominant period at McLaren, where he finished ahead of Lando Norris in 61% of their head-to-head races over two seasons. This performance, in hindsight, is a testament to his skill and adaptability.  
+
+**Highly Competitive at Ferrari:** While Charles Leclerc held a slight edge during their time as teammates, the competition was incredibly close. In their first season together, Sainz finished ahead in the driver standings, and in subsequent years, the race delta was never overwhelmingly large.  
+
+**Undervalued Talent:** The data suggests that Sainz is an excellent and consistent performer. The fact that he was not immediately picked up by another top team for 2025 is surprising given his track record, especially in comparison to his former teammate Lando Norris's current success.
+
+In summary, the hypothesis that Carlos Sainz has, on average, had better results than his teammates holds up well across the majority of his career. He is a "smooth operator" not just in his driving style but also in his ability to extract performance from the car and deliver solid, reliable results. His move to Williams is an exciting opportunity, and his track record suggests he has the talent to once again perform at a very high level and potentially lead the team's development.
+
