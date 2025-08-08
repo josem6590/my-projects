@@ -37,17 +37,23 @@ After pulling the data from SQL, I built a graph and made it as clear as possibl
 ![F1 SQL](graph.png)
 
 ### Insights
+To provide a more objective interpretation of the data, I have established a simple quantitative framework for my qualitative insights. These descriptions are based on the average race result difference (delta) between Sainz and his teammates over the season.
 
-2015 (Toro Rosso) Slightly outperformed by Max, both did full seasons (19 GPs)  
-2016 (Toro Rosso) Sainz comfortably outperformed Kvyat, but Verstappen was faster in limited races  
-2017 (Toro Rosso) Dominated his teammates statistically  
-2018 (Renault) Outperformed by Hulkenberg  
-2019 (McLaren) Beat Norris fairly clearly  
-2020 (McLaren) Slight edge to Sainz again  
-2021 (Ferrari) Essentially tied, slight edge to Sainz  
-2022 (Ferrari) Slightly outperformed by Leclerc  
-2023 (Ferrari) Leclerc ahead more clearly  
-2024 (Ferrari) Leclerc ahead again, though not by a huge margin  
+**Slight edge:** Average race result delta is less than 1.0 position.  
+**Clear advantage:** Average race result delta is between 1.0 and 2.5 positions.  
+**Dominated:** Average race result delta is greater than 2.5 positions.  
+
+A key point of our analysis is that these qualitative statements are based on the average position difference and are not a formal measure of statistical significance. However, by providing this framework, we can offer a more consistent and transparent interpretation of the quantitative data.
+
+**2015 (Toro Rosso):** Slightly outperformed by Max Verstappen. The average race results were very close, with Verstappen holding a **slight edge** (average delta less than 1.0 position). Both drivers completed a full season (19 GPs).  
+**2016 (Toro Rosso):** Sainz had a **clear advantage** over Daniil Kvyat. However, it's worth noting that Verstappen was a teammate for only a limited number of races before his promotion to Red Bull, making the sample size for that comparison small.  
+**2017 (Toro Rosso):** Sainz **dominated** his teammates statistically, holding a clear and consistent performance advantage across the season.  
+**2018 (Renault):** Sainz was slightly outperformed by Nico Hulkenberg, who held a **slight edge** in average race results.  
+**2019 (McLaren):** Sainz held a **clear advantage** over Lando Norris in his first year at McLaren.  
+**2020 (McLaren):** Sainz maintained a **slight edge** over Norris again, with both drivers being very closely matched throughout the season.  
+**2021 (Ferrari):** The competition was extremely close, with Sainz and Charles Leclerc effectively tied in terms of average race result. Sainz finished the season with a very **slight edge.**  
+**2022 (Ferrari):** Leclerc held a **slight edge** over Sainz, outperforming him by a small margin.  
+**2023 (Ferrari):** Leclerc's advantage became more pronounced, giving him a **clear advantage** in average race results for the season.  
 
 
 ### SQL - Delta
@@ -63,11 +69,12 @@ I created the below graphs to show the delta, the difference between Sainz race 
 
 
 ### Insights - Delta
-2015 - 2017 (Toro Rosso) What's interesting to note here is that when we looked at his average race result previously max had outperformed Sainz in 2015. However, what the H2H data tells us is that, when we look at the GP rounds that both drivers managed to finish, they had both finished higher than each other a total of five times. And when we look at his overall career at Toro Rosso we see Sainz finishing higher that his teammates a whopping 70% of the time.  
-2018 (Renault) Hulkenburg outperforms Sainz  
-2019 - 2020 (Mclaren) Sainz over his two years at Mclaren finishes higher than Lando Norris 61% of the time and often by quite a margin or around 5 positions especially in his first season.  
-2021 - 2024 (Ferrari) Apart from 2022 where Sainz and Leclrec beat each other equally, Leclerc finishes higher in the other three years. Although looking at the delta not by much. However, I noticed that when Sainz did beat Leclerc he beat him by a greater margin which prompted me to just check the driver standings for each year. What I found was Sainz finished higher than Lecrec in the driver standings for 2021 but not in any other year at Ferrari. Sainz only managed to beat Lelcerc in 31% of the H2H. 
+The head-to-head delta analysis provides a more granular view of driver performance by focusing on races where both drivers finished. The positive and negative values represent Sainz's race result relative to his teammate's.
 
+**2015 - 2017 (Toro Rosso):** Our previous analysis showed Verstappen with a slight edge over Sainz in 2015. However, the head-to-head data reveals a closer competition, with both drivers finishing ahead of the other in a total of five races. For his career at Toro Rosso as a whole, Sainz finished higher than his teammates in a significant 70% of head-to-head races. This demonstrates a strong consistency beyond what a single average can show.  
+**2018 (Renault):** The head-to-head results confirm the average race results, with Hulkenberg consistently outperforming Sainz when both finished.  
+**2019 - 2020 (McLaren):** Over his two years at McLaren, Sainz consistently finished higher than Lando Norris in 61% of head-to-head races. The graphs show that when he won the head-to-head, it was often by a significant margin (around 5 positions), especially in his first season.  
+**2021 - 2024 (Ferrari):** This period shows a very tight battle. Sainz and Leclerc were dead even in their head-to-head wins in 2022. In the other three years, Leclerc finished ahead more often. However, the delta graphs show that when Sainz did beat Leclerc, he sometimes did so by a larger margin, which prompted the check of the driver standings. The fact that Sainz finished ahead of Leclerc in the 2021 driver standings, despite the tight head-to-head results, speaks to his consistency and ability to capitalize on opportunities. Overall at Ferrari, Sainz finished ahead of Leclerc in 31% of the head-to-head races.  
 
 ### Conclusion
 Based on the above analysis of Carlos Sainz's race results, we see a driver who consistently delivers strong results accross multiple teams over the years.
