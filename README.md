@@ -59,7 +59,7 @@ Seeing the average race result by season vs. his teammate was good but I really 
 ### Graph - Delta
 I created the below graphs to show the delta, the difference between Sainz race results and his teammates. A positive number, meaning Sainz finished higher than his teammates and a negative number meaning he finished lower than his teammates. The greater the difference from 0, the greater the difference from where both teammates finished. I only wanted to show races where both drives finished the race, hence there are some numbers missing from the GP Rounds. I choose to keep the Y axis bounds consistent through all the graphs for ease of comparison and also highlighted the totals for that year on the right of the chart. 
 
-![F1 SQL](DS.png)
+![F1 SQL](D3.png)
 
 
 ### Insights - Delta
