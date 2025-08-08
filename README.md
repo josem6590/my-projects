@@ -69,12 +69,7 @@ I created the below graphs to show the delta, the difference between Sainz race 
 2021 - 2024 (Ferrari) Apart from 2022 where Sainz and Leclrec beat each other equally, Leclerc finishes higher in the other three years. Although looking at the delta not by much. However, I noticed that when Sainz did beat Leclerc he beat him by a greater margin which prompted me to just check the driver standings for each year. What I found was Sainz finished higher than Lecrec in the driver standings for 2021 but not in any other year at Ferrari. Sainz only managed to beat Lelcerc in 31% of the H2H. 
 
 
-### Summary
-There are other questions that come to mind and other interesting things that I want to explore for example the qualifying data but given this is supposed to be a handful of small projects we must draw the line. 
-Looking at the data I have compiled as a whole we see a very good driver performing very well apart from 2018 in his one season at Renault and perhaps the last two seasons at Ferrari. However, he is consistent and even in the seasons he does not perform well the delta to his teammate is not significantly large as highlighted in 2021, where he still finished higher than Leclrec in the driver standings. It's interesting to note when he was at Mclaren he performed better than his teammate Norris and Norris is currently fighting for the Championship, as he was last year. It does make me wonder - what if Sainz didn't leave Mclaren. We can only speculate but looking at his past performance, I would say he would be on to win his first F1 Championship. 
-
-
-### Conclusion/Summary
+### Conclusion
 Based on the above analysis of Carlos Sainz's race results, we see a driver who consistently delivers strong results accross multiple teams over the years.
 
 ### Key Findings 
@@ -86,5 +81,6 @@ Based on the above analysis of Carlos Sainz's race results, we see a driver who 
 
 **Undervalued Talent:** The data suggests that Sainz is an excellent and consistent performer. The fact that he was not immediately picked up by another top team for 2025 is surprising given his track record, especially in comparison to his former teammate Lando Norris's current success.
 
+### Summary
 In summary, the hypothesis that Carlos Sainz has, on average, had better results than his teammates holds up well across the majority of his career. He is a "smooth operator" not just in his driving style but also in his ability to extract performance from the car and deliver solid, reliable results. 
 
