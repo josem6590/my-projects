@@ -4,7 +4,7 @@ I decided to host a web page of little projects, based on questions that I wante
 
 
 # PROJECT 1
-## How good an F1 driver is Carlos Sainz?
+## How good is F1 driver Carlos Sainz?
 
 ### Introduction
 After the death of my hero Ayrton Senna at Imola in 1994, which I watched live, I started to fall out of love with Formula 1. I then stopped watching when Michael Schumacker kept winning every race and championship - it had become very boring. But something changed in the early 2000's, a young Spanish lad called Fernando Alonso started to make waves. I started watching again and have not stopped. It's well known how good Fernando Alonso is and now at the age of 44 after having won 2 F1 Championships he is still driving and performing well. 
